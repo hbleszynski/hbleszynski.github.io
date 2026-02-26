@@ -1,5 +1,6 @@
+# Chapter 1
 
-### Problem 1.1
+## Problem 1.1
 
 Prove:
 
@@ -7,7 +8,7 @@ $$
 [AB,CD] = -AC(D,B) + A(C,B)D - C(D, A)B +(C, A)DB
 $$
 
-##### Solution:
+## Solution:
 
 
 
@@ -58,7 +59,7 @@ $$
 [AB,CD] = -AC(D,B) + A(C,B)D - C(D, A)B +(C, A)DB
 $$
 
-### Problem 1.2
+## Problem 1.2
 
 Suppose a 2×2 matrix $X$ (not necessarily Hermitian or unitary) is written as
 
@@ -72,7 +73,7 @@ where $a_0$ and $a_{1,2,3}$ are numbers.
 
 (b) Obtain $a_0$ and $a_k$ in terms of the matrix elements $X_{ij}$.
 
-#### Solution:
+## Solution:
 
 (a) How are $a_0$ and $a_k(k = 1,2,3)$ related to $tr(X)$ and $tr(σ_k X)$ ?
 
@@ -169,7 +170,7 @@ $$
 $$
 
 
-### Problem 1.3
+## Problem 1.3
 
 Show that the determinant of a 2×2 matrix $\sigma \cdot a$  is invariant under
 
@@ -179,11 +180,11 @@ $$
 
 $a_k^{`}$ in terms of $a_k$ when $\hat{n}$ is in the positive z-direction, and interpret your result.
 
-##### Solution
+## Solution
 
 
 
-### Problem 1.4
+## Problem 1.4
 
 Using the rules of bra-ket algebra, prove or evaluate the following:
 
@@ -195,7 +196,7 @@ Using the rules of bra-ket algebra, prove or evaluate the following:
 
 (d) $\sum_{a^{\prime}} \psi_{a^{\prime}}^*\left(\mathbf{x}^{\prime}\right) \psi_{a^{\prime}}\left(\mathbf{x}^{\prime \prime}\right) \text {, where } \psi_{a^{\prime}}\left(\mathbf{x}^{\prime}\right)=\left\langle\mathbf{x}^{\prime} \mid a^{\prime}\right\rangle \text {. }$ 
 
-##### Solution
+## Solution
 
 (a) Prove $tr(XY) =  tr(YX)$, where X and Y are operators. 
 
@@ -264,13 +265,13 @@ $$
 $$
 
 
-### Problem 1.5
+## Problem 1.5
 
-(a) Consider two kets $|\alpha\rangle$ and $|\beta\rangle$. Suppose $\left\langle a^{\prime} \mid \alpha\right\rangle,\left\langle a^{\prime \prime} \mid \alpha\right\rangle, \ldots$ and $\left\langle a^{\prime} \mid \beta\right\rangle$, $\left\langle a^{\prime \prime} \mid \beta\right\rangle, \ldots$ are all known, where $\left|a^{\prime}\right\rangle,\left|a^{\prime \prime}\right\rangle, \ldots$ form a complete set of base kets. Find the matrix representation of the operator $|\alpha\rangle\langle\beta|$ in that basis.
+(a) Consider two kets $\ket{\alpha}$ and $\ket{\beta}$. Suppose $\left\langle a^{\prime} \mid \alpha\right\rangle,\left\langle a^{\prime \prime} \mid \alpha\right\rangle, \ldots$ and $\left\langle a^{\prime} \mid \beta\right\rangle$, $\left\langle a^{\prime \prime} \mid \beta\right\rangle, \ldots$ are all known, where $\left|a^{\prime}\right\rangle,\left|a^{\prime \prime}\right\rangle, \ldots$ form a complete set of base kets. Find the matrix representation of the operator $|\alpha\rangle\langle\beta|$ in that basis.
 
 (b) We now consider a spin $\frac{1}{2}$ system and let $|\alpha\rangle$ and $|\beta\rangle$ be $\left|s_z=\hbar / 2\right\rangle$ and $\left|s_x=\hbar / 2\right\rangle$, respectively. Write down explicitly the square matrix that corresponds to $|\alpha\rangle\langle\beta|$ in the usual ( $s_z$ diagonal) basis.
 
-##### Solution
+## Solution
 
 (a) 
 
@@ -352,11 +353,11 @@ $$
 
 
 
-### Problem 1.6 
+## Problem 1.6 
 
 Suppose $\ket{i}$ and $\ket{j}$ are eigenkets of some Hermitian operator $A$. Under what condition can we conclude that  $\ket{i} + \ket{j}$ is also an eigenket of $A$? Justify your answer.
 
-##### Solution
+## Solution
 
 Operator A  has eigenkets $\ket{i}$ and $\ket{j}$ so 
 
@@ -386,7 +387,7 @@ must be true.
 
 Thus $a_i = a_j = \lambda$ . This means that the eigenvalues must be degenerate for  $\ket{i}+\ket{j}$ to be an eigenket of A.
 
-### Problem 1.7 
+## Problem 1.7 
 
 Consider a ket space spanned by the eigenkets $\lbrace\ket{a'}\rbrace$ of a Hermitian operator $A$. There is no degeneracy.
 
@@ -406,5 +407,5 @@ $$
 
 (c) Illustrate (a) and (b) using $A$ set equal to $S_z$ of a spin $\frac{1}{2}$ system.
 
-##### Solution
+## Solution
  
