@@ -194,7 +194,7 @@ Using the rules of bra-ket algebra, prove or evaluate the following:
 
 (c) $\text{exp} \left[ if (A) \right] = ?$ in ket-bra form, where A is a Hermitian Operator whose eigenvalues are known.
 
-(d) $\sum_{a^{\prime}} \psi_{a^{\prime}}^*\left(\mathbf{x}^{\prime}\right) \psi_{a^{\prime}}\left(\mathbf{x}^{\prime \prime}\right) \text {, where } \psi_{a^{\prime}}\left(\mathbf{x}^{\prime}\right)=\braket{\mathbf{x}^{\prime} | a^{\prime}} \text {. }$ 
+(d) $\sum_{a^{\prime}} \psi_{a^{\prime}}^*\left(\mathbf{x}^{\prime}\right) \psi_{a^{\prime}}\left(\mathbf{x}^{\prime \prime}\right) \text {, where } \psi_{a^{\prime}}\left(\mathbf{x}^{\prime}\right)=\braket{\mathbf{x}^{\prime}}{a^{\prime}} \text {. }$ 
 
 ## Solution
 
@@ -267,7 +267,7 @@ $$
 
 ## Problem 1.5
 
-(a) Consider two kets $\ket{\alpha}$ and $\ket{\beta}$. Suppose $\braket{a' | \alpha},\braket{a'' | \alpha}, \ldots$ and $\braket{a' | \beta}$, $\braket{a'' | \beta}, \ldots$ are all known, where $\ket{a^{\prime}},\ket{a^{\prime \prime}}, \ldots$ form a complete set of base kets. Find the matrix representation of the operator $\ket{\alpha}\bra{\beta}$ in that basis.
+(a) Consider two kets $\ket{\alpha}$ and $\ket{\beta}$. Suppose $\braket{a'}{\alpha},\braket{a''}{\alpha}, \ldots$ and $\braket{a'}{\beta}$, $\braket{a''}{\beta}, \ldots$ are all known, where $\ket{a^{\prime}},\ket{a^{\prime \prime}}, \ldots$ form a complete set of base kets. Find the matrix representation of the operator $\ket{\alpha}\bra{\beta}$ in that basis.
 
 (b) We now consider a spin $\frac{1}{2}$ system and let $\ket{\alpha}$ and $\ket{\beta}$ be $\ket{s_z=\hbar / 2}$ and $\ket{s_x=\hbar / 2}$, respectively. Write down explicitly the square matrix that corresponds to $\ket{\alpha}\bra{\beta}$ in the usual ( $s_z$ diagonal) basis.
 
@@ -277,8 +277,8 @@ $$
 
 $$
 \ket{\alpha}\bra{\beta} \doteq\left(\begin{array}{ccc}
-\braket{a^{(1)} | \alpha}\braket{a^{(1)} | \beta}^* & \braket{a^{(1)} | \alpha}\braket{a^{(2)} | \beta}^* & \ldots \\
-\braket{a^{(2)} | \alpha}\braket{a^{(1)} | \beta}^* & \braket{a^{(2)} | \alpha}\braket{a^{(2)} | \beta}^* & \ldots \\
+\braket{a^{(1)}}{\alpha}\braket{a^{(1)}}{\beta}^* & \braket{a^{(1)}}{\alpha}\braket{a^{(2)}}{\beta}^* & \ldots \\
+\braket{a^{(2)}}{\alpha}\braket{a^{(1)}}{\beta}^* & \braket{a^{(2)}}{\alpha}\braket{a^{(2)}}{\beta}^* & \ldots \\
 \vdots & \vdots & \ddots
 \end{array}\right) .
 $$
@@ -336,7 +336,7 @@ Taking the inner product of $\ket{\beta}$ with itself we must get 1 because the 
 so 
 
 $$
-\braket{\beta | \beta} = 1
+\braket{\beta}{\beta} = 1
 $$
 
 and that means that $|a|^2 + |a|^2 = 1$ or $a = \frac{1}{\sqrt{2}}$ . Therefore $\ket{\beta} = \frac{1}{\sqrt{2}} \begin{bmatrix} 1 \\ 1\end{bmatrix}$. Now we can turn the ket $\ket{\beta}$ into a bra so that we can do outer product.
