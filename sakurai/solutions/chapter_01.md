@@ -339,7 +339,7 @@ $$
 \braket{\beta}{\beta} = 1
 $$
 
-and that means that $|a|^2 + |a|^2 = 1$ or $a = \frac{1}{\sqrt{2}}$ . Therefore $\ket{\beta} = \frac{1}{\sqrt{2}} \begin{bmatrix} 1 \\ 1\end{bmatrix}$. Now we can turn the ket $\ket{\beta}$ into a bra so that we can do outer product.
+and that means that $\lvert a \rvert ^2 + \lvert a \rvert ^2 = 1$ or $a = \frac{1}{\sqrt{2}}$ . Therefore $\ket{\beta} = \frac{1}{\sqrt{2}} \begin{bmatrix} 1 \\ 1\end{bmatrix}$. Now we can turn the ket $\ket{\beta}$ into a bra so that we can do outer product.
 
 $$
 \bra{\beta} = \frac{1}{\sqrt{2}} \begin{bmatrix} 1 & 1 \end{bmatrix} 
