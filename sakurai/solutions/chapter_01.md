@@ -186,9 +186,13 @@ $a_k^{`}$ in terms of $a_k$ when $\hat{n}$ is in the positive z-direction, and i
 ### Problem 1.4
 
 Using the rules of bra-ket algebra, prove or evaluate the following:
+
 (a) $tr(XY) =  tr(YX)$, where X and Y are operators.
+
 (b) $(XY)^{†} = Y^{†}X^{†}$ , where X and Y are operators.
+
 (c) exp(i f(A))) =? in ket-bra form, where A is a Hermitian Operator whose eigenvalues are known.
+
 (d) $\sum_{a^{\prime}} \psi_{a^{\prime}}^*\left(\mathbf{x}^{\prime}\right) \psi_{a^{\prime}}\left(\mathbf{x}^{\prime \prime}\right) \text {, where } \psi_{a^{\prime}}\left(\mathbf{x}^{\prime}\right)=\left\langle\mathbf{x}^{\prime} \mid a^{\prime}\right\rangle \text {. }$ 
 
 ##### Solution
@@ -263,6 +267,7 @@ $$
 ### Problem 1.5
 
 (a) Consider two kets $|\alpha\rangle$ and $|\beta\rangle$. Suppose $\left\langle a^{\prime} \mid \alpha\right\rangle,\left\langle a^{\prime \prime} \mid \alpha\right\rangle, \ldots$ and $\left\langle a^{\prime} \mid \beta\right\rangle$, $\left\langle a^{\prime \prime} \mid \beta\right\rangle, \ldots$ are all known, where $\left|a^{\prime}\right\rangle,\left|a^{\prime \prime}\right\rangle, \ldots$ form a complete set of base kets. Find the matrix representation of the operator $|\alpha\rangle\langle\beta|$ in that basis.
+
 (b) We now consider a spin $\frac{1}{2}$ system and let $|\alpha\rangle$ and $|\beta\rangle$ be $\left|s_z=\hbar / 2\right\rangle$ and $\left|s_x=\hbar / 2\right\rangle$, respectively. Write down explicitly the square matrix that corresponds to $|\alpha\rangle\langle\beta|$ in the usual ( $s_z$ diagonal) basis.
 
 ##### Solution
@@ -349,7 +354,7 @@ $$
 
 ### Problem 1.6 
 
-Suppose $|i\rangle$ and $|j\rangle$ are eigenkets of some Hermitian operator $A$. Under what condition can we conclude that $|i\rangle+|j\rangle$ is also an eigenket of $A$ ? Justify your answer.
+Suppose $\ket{i}$ and $\ket{j}$ are eigenkets of some Hermitian operator $A$. Under what condition can we conclude that  $\ket{i} + \ket{j}$ is also an eigenket of $A$? Justify your answer.
 
 ##### Solution
 
@@ -382,8 +387,6 @@ must be true.
 Thus $a_i = a_j = \lambda$ . This means that the eigenvalues must be degenerate for  $\ket{i}+\ket{j}$ to be an eigenket of A.
 
 ### Problem 1.7 
-
-Consider a ket space spanned by the eigenkets $\\{\left|a^{\prime}\right\rangle\\}$ of a Hermitian operator $A$. There is no degeneracy.
 
 Consider a ket space spanned by the eigenkets $\lbrace\ket{a'}\rbrace$ of a Hermitian operator $A$. There is no degeneracy.
 
