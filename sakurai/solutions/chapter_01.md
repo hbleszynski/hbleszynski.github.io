@@ -219,7 +219,7 @@ Since scalar multiplication is commutative we could re-arrange $X_{ij}$ and $Y_{
 Since $X$ and $Y$ are operators we can write
 
 $$
-XY|a\rangle = X(Y|a\rangle) \xleftrightarrow{DC} (\langle a | Y^{\dagger})X^{\dagger} = \langle a|Y^{\dagger}X^{\dagger}
+XY\ket{a} = X(Y\ket{a}) \xleftrightarrow{DC} (\bra{a} Y^{\dagger})X^{\dagger} = \bra{a}Y^{\dagger}X^{\dagger}
 $$
 
 This shows that if we take the Hermitian of the product of two operators $X$ and $Y$ in that order, we will get $Y^{\dagger}X^{\dagger}$ 
@@ -296,7 +296,7 @@ S_x = \frac{\hbar}{2}\begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix}
 $$
 
 
-Since we want t $\ket{\beta}$ in the z basis we write
+Since we want $\ket{\beta}$ in the z basis we write
 
 $$
 \ket{\beta} = c_{+}\ket{+}+c_{-}\ket{-}
@@ -314,7 +314,7 @@ $$
 S_x\ket{\beta} = \frac{\hbar}{2}\ket{\beta}
 $$
 
-Substituting the $S_x$ matrixin we get
+Substituting the $S_x$ matrix in we get
 
 $$
 \frac{\hbar}{2}\begin{bmatrix} 0 &1 \\ 1 & 0 \end{bmatrix}\ket{\beta} = \frac{\hbar}{2} \ket{\beta}
@@ -408,4 +408,3 @@ $$
 (c) Illustrate (a) and (b) using $A$ set equal to $S_z$ of a spin $\frac{1}{2}$ system.
 
 ## Solution
- 
