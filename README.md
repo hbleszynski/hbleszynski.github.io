@@ -4,4 +4,4 @@ Modern Quantum Mechanics, by J. J. Sakurai and Jim Napolitano, 2020. Cambridge: 
 
 Solutions to Problems
 
-[Chapter 1](sakurai/solutions/chapter_01.md)
+[Chapter 1](sakurai/solutions/chapter_01.html)
