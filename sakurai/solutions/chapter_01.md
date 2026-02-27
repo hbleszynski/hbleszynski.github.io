@@ -285,7 +285,7 @@ $$
 
 (b)
 
-Let $\ket{\alpha} = S_{z}\ket{+} = \begin{bmatrix} 1 \\ 0 \end{bmatrix}$ . We also know $\ket{\beta} = \ket{S_{x}+}$ so 
+Let $\ket{\alpha} = S_{z}\ket{+} = \begin{bmatrix} 1 \\ 0 \end{bmatrix}$ . We also know $\ket{\beta} = \ket{S_{x};+}$ so 
 
 $$
 S_{x} \ket{\beta} = \frac{\hbar}{2} \ket{\beta}
