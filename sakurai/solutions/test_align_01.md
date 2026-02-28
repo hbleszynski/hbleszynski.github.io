@@ -4,6 +4,6 @@ $$
                                             &  &{} + \cancel{ACBD} + ABCD          \\
                                             &  &{} - CDAB          - \cancel{CADB} \\
                                             &  &{} + \cancel{CADB} + \cancel{ACDB} \\\\\\
-                                            &= &{} \\; ABCD - CDAB
+                                            &= &{} ABCD - CDAB
 \end{alignat}
 $$
