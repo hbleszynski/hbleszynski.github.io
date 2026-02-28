@@ -74,3 +74,20 @@ $$
                                              &= &\phantom{+}ABCD  - CDAB
 \end{alignat}
 $$
+
+# 6
+
+Using `&\mathrel{\phantom{=}}`
+
+$$
+\begin{equation}
+\begin{split}
+{} - AC(D,B) + A(C,B)D - C(D,A)B + (C,A)DB &=                     {} - \cancel{ACDB} - \cancel{ACBD} \\
+                                           &\mathrel{\phantom{=}} {} + \cancel{ACBD} +         ABCD  \\
+                                           &\mathrel{\phantom{=}} {} -         CDAB  - \cancel{CADB} \\
+                                           &\mathrel{\phantom{=}} {} + \cancel{CADB} + \cancel{ACDB} \\\\\\
+                                           &=                     {}           ABCD  -         CDAB
+\end{split}
+\end{equation}
+$$
+
