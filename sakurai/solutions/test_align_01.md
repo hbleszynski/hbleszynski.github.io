@@ -1,3 +1,5 @@
+# 1
+
 $$
 \begin{alignat}{2}
 {} - AC(D,B) + A(C,B)D - C(D,A)B + (C,A)DB  &= &{} - \cancel{ACDB} - \cancel{ACBD} \\
@@ -7,6 +9,8 @@ $$
                                             &= &{} ABCD - CDAB
 \end{alignat}
 $$
+
+# 2
 
 $$
 \begin{alignat}{3}
@@ -18,6 +22,20 @@ $$
 \end{alignat}
 $$
 
+# 3
+
+$$
+\begin{alignat}{2}
+{} - AC(D,B) + A(C,B)D - C(D,A)B + (C,A)DB  &= &{-}&\cancel{ACDB} - \cancel{ACBD} \\
+                                            &  &{+}&\cancel{ACBD} + ABCD          \\
+                                            &  &{-}&CDAB          - \cancel{CADB} \\
+                                            &  &{+}&\cancel{CADB} + \cancel{ACDB} \\\\\\
+                                            &= &   &ABCD - CDAB
+\end{alignat}
+$$
+
+# 4 
+
 $$
 \begin{alignat}{3}
 {} - AC(D,B) + A(C,B)D - C(D,A)B + (C,A)DB  &= &{-\cancel{ACDB}}& - \cancel{ACBD} \\
@@ -28,6 +46,8 @@ $$
 \end{alignat}
 $$
 
+# 5
+
 $$
 \begin{alignat}{2}
 {} - AC(D,B) + A(C,B)D - C(D,A)B + (C,A)DB  &= &{-\cancel{ACDB}} - \cancel{ACBD} \\
@@ -37,6 +57,8 @@ $$
                                              &= &{ABCD}           - CDAB
 \end{alignat}
 $$
+
+# 6
 
 $$
 \begin{alignat}{2}
