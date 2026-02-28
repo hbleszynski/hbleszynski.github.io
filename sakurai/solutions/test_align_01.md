@@ -10,7 +10,9 @@ $$
 \end{alignat}
 $$
 
-# 2 - The only case that aligns in Jekyll 
+# 2
+
+The only case that aligns in Jekyll 
 
 $$
 \begin{alignat}{3}
@@ -22,7 +24,9 @@ $$
 \end{alignat}
 $$
 
-# 2.1 Alternate narrower width code
+# 2.1
+
+Alternate narrower width code
 
 $$
 \begin{alignat}{3}
