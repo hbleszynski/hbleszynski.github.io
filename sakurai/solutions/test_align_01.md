@@ -10,7 +10,7 @@ $$
 \end{alignat}
 $$
 
-# 2
+# 2 - The only case that aligns in Jekyll 
 
 $$
 \begin{alignat}{3}
@@ -25,18 +25,6 @@ $$
 # 3
 
 $$
-\begin{alignat}{2}
-{} - AC(D,B) + A(C,B)D - C(D,A)B + (C,A)DB  &= &{-}&\cancel{ACDB} - \cancel{ACBD} \\
-                                            &  &{+}&\cancel{ACBD} + ABCD          \\
-                                            &  &{-}&CDAB          - \cancel{CADB} \\
-                                            &  &{+}&\cancel{CADB} + \cancel{ACDB} \\\\\\
-                                            &= &   &ABCD - CDAB
-\end{alignat}
-$$
-
-# 4 
-
-$$
 \begin{alignat}{3}
 {} - AC(D,B) + A(C,B)D - C(D,A)B + (C,A)DB  &= &{-\cancel{ACDB}}& - \cancel{ACBD} \\
                                              &  &{+\cancel{ACBD}}& + ABCD          \\
@@ -46,7 +34,7 @@ $$
 \end{alignat}
 $$
 
-# 5
+# 4
 
 $$
 \begin{alignat}{2}
@@ -58,7 +46,7 @@ $$
 \end{alignat}
 $$
 
-# 6
+# 5
 
 $$
 \begin{alignat}{2}
