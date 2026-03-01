@@ -1,4 +1,4 @@
-# 1
+1. `&= &{}`
 
 $$
 \begin{alignat*}{2}
@@ -10,9 +10,7 @@ $$
 \end{alignat*}
 $$
 
-# 2
-
-The only case that aligns in Jekyll 
+2. ``&= &{-}&\cancel{ACDB}`` aligns in Jekyll
 
 $$
 \begin{alignat*}{3}
@@ -24,9 +22,7 @@ $$
 \end{alignat*}
 $$
 
-# 2.1
-
-Alternate narrower width code
+3. Same as above but narrower width source code
 
 $$
 \begin{alignat*}{3}
@@ -39,7 +35,7 @@ $$
 \end{alignat*}
 $$
 
-# 3
+4. `&= &{-\cancel{ACDB}}&`
 
 $$
 \begin{alignat*}{3}
@@ -51,7 +47,7 @@ $$
 \end{alignat*}
 $$
 
-# 4
+5. `&= &{-\cancel{ACDB}}`
 
 $$
 \begin{alignat*}{2}
@@ -63,21 +59,7 @@ $$
 \end{alignat*}
 $$
 
-# 5
-
-$$
-\begin{alignat*}{2}
-{} - AC(D,B) + A(C,B)D - C(D,A)B + (C,A)DB  &= &{-\cancel{ACDB}} - \cancel{ACBD} \\
-                                             &  &{+\cancel{ACBD}} + ABCD          \\
-                                             &  &{-CDAB}          - \cancel{CADB} \\
-                                             &  &{+\cancel{CADB}} + \cancel{ACDB} \\\\\\
-                                             &= &\phantom{+}ABCD  - CDAB
-\end{alignat*}
-$$
-
-# 6
-
-Using `&\mathrel{\phantom{=}}`
+6. `&\mathrel{\phantom{=}}` aligns in jekyll
 
 $$
 \begin{equation*}
