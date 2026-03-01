@@ -10,7 +10,7 @@
     \end{alignat*}
     $$
 
-2. ``&= &{-}&\cancel{ACDB}`` aligns in Jekyll
+1. ``&= &{-}&\cancel{ACDB}`` aligns in Jekyll
 
     $$
     \begin{alignat*}{3}
@@ -22,7 +22,7 @@
     \end{alignat*}
     $$
 
-3. Same as above but narrower width source code
+1. Same as above but narrower width source code
 
     $$
     \begin{alignat*}{3}
@@ -35,7 +35,7 @@
     \end{alignat*}
     $$
 
-4. `&= &{-\cancel{ACDB}}&`
+1. `&= &{-\cancel{ACDB}}&`
 
     $$
     \begin{alignat*}{3}
@@ -47,7 +47,7 @@
     \end{alignat*}
     $$
 
-5. `&= &{-\cancel{ACDB}}`
+1. `&= &{-\cancel{ACDB}}`
 
     $$
     \begin{alignat*}{2}
@@ -59,7 +59,7 @@
     \end{alignat*}
     $$
 
-6. `&\mathrel{\phantom{=}}` aligns in jekyll
+1. `&\mathrel{\phantom{=}}` aligns in jekyll
 
     $$
     \begin{equation*}
