@@ -10,14 +10,7 @@
     $$
     e=f
     $$
-
-
-
-1. First equation
- $$
- a=b
- $$
-2. Second equation
- $$
- c=d
- $$
+1. Fourth equation
+    $$
+    g=h
+    $$
